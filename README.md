@@ -85,8 +85,8 @@ Response Color Legend:
 ## 📸 Demo Tools & Screenshots
 
 <p align="center">
-  <img src="img/4-ZERO-3_preview.gif" width="45%"/>
-  <img src="img/403-help.jpg" width="45%"/>
+  <img src="img/4-ZERO-3_priview.gif" width="45%"/>
+  <img src="img/403-help.png" width="45%"/>
 </p>
 
 ---
