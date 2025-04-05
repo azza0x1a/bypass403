@@ -22,42 +22,15 @@
 
 ## ⚙️ Installation
 
-````bash
 git clone https://github.com/azza0x1a/4-ZERO-3.git
 cd 4-ZERO-3
 chmod +x 403-bypass.sh
 
-### >_ Usage / Modes
+##  Usage
 
-- Scan with specific payloads:
-  * [ `--header` ] Support HEADER based bypasses/payloads
-    ```bash
-    root@me_dheeraj:$ bash 403-bypass.sh -u https://target.com/secret --header
-    ```
-  * [ `--protocol` ] Support PROTOCOL based bypasses/payloads
-    ```bash
-    root@me_dheeraj:$ bash 403-bypass.sh -u https://target.com/secret --protocol
-    ```
-  * [ `--port` ] Support PORT based bypasses/payloads
-    ```bash
-    root@me_dheeraj:$ bash 403-bypass.sh -u https://target.com/secret --port
-    ```
-  * [ `--HTTPmethod` ] Support HTTP Method based bypasses/payloads
-    ```bash
-    root@me_dheeraj:$ bash 403-bypass.sh -u https://target.com/secret --HTTPmethod
-    ```
-  * [ `--encode` ] Support URL Encoded bypasses/payloads
-    ```bash
-    root@me_dheeraj:$ bash 403-bypass.sh -u https://target.com/secret --encode
-    ```
-  * [ `--SQLi` ] Support MySQL mod_Security & libinjection bypasses/payloads [** New **]
-    ```bash
-    root@me_dheeraj:$ bash 403-bypass.sh -u https://target.com/secret --SQLi
-    ```
-- Complete Scan {includes all exploits/payloads} for an endpoint [ --exploit ]
-```bash
-root@me_dheeraj:$ bash 403-bypass.sh -u https://target.com/secret --exploit
-````
+./403-bypass.sh -u https://target.com/admin --exploit
+
+---
 
 ## Help Menu
 
@@ -85,8 +58,7 @@ Response Color Legend:
 ## 📸 Demo Tools & Screenshots
 
 <p align="center">
-  <img src="img/4-ZERO-3_priview.gif" width="45%"/>
-  <img src="img/403-help.png" width="45%"/>
+  <img src="img/1.png" width="45%"/>
 </p>
 
 ---
