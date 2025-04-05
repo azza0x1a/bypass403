@@ -1,24 +1,31 @@
-<a href="https://www.buymeacoffee.com/medheeraj"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=medheeraj&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
+# 🔓 4-ZERO-3 - Advanced 403/401 Bypass Tool
 
-[![License](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)
-![Follow on Twitter](https://img.shields.io/twitter/follow/Dheerajmadhukar?style=social)
+> One tool to rule all 403s.  
+> Automated bypass techniques for forbidden directories and restricted paths.  
+> Made for **Bug Bounty Hunters**, **Pentesters**, and **Security Researchers**.
 
-### >_ Introduction
+---
 
-**4-ZERO-3**
-Tool to bypass 403/401. This script contain all the possible techniques to do the same. 
+## 🚀 Features
 
-- **NOTE** : If you see multiple [200 Ok]/bypasses as output, you must check the Content-Length. If the content-length is same for multiple [200 Ok]/bypasses means false positive. Reason can be "301/302" or "../" [Payload] DON'T PANIC.
-- Script will print `cURL` PAYLOAD if possible bypass found.
+✅ Header Injection Bypass  
+✅ HTTP Method Override  
+✅ Protocol Smuggling Tricks  
+✅ Port Number Obfuscation  
+✅ URL Encoding & Obfuscation  
+✅ WAF Bypass using SQLi Signatures  
+✅ Complete All-in-One Scan Mode (`--exploit`)
 
-### >_ Preview
-![4-ZERO-3_priview](https://github.com/Dheerajmadhukar/4-ZERO-3/blob/main/img/4-ZERO-3_priview.gif)
+> 🎯 No fancy dependencies. Pure Bash. Pure Power.
 
-### >_ Help
-```bash
-root@me_dheeraj:$ bash 403-bypass.sh -h
-```
-<img src="img/403-help.png" alt="4-ZERO-3" width="1000px">
+---
+
+## ⚙️ Installation
+
+````bash
+git clone https://github.com/azza0x1a/4-ZERO-3.git
+cd 4-ZERO-3
+chmod +x 403-bypass.sh
 
 ### >_ Usage / Modes
 
@@ -50,14 +57,47 @@ root@me_dheeraj:$ bash 403-bypass.sh -h
 - Complete Scan {includes all exploits/payloads} for an endpoint [ --exploit ]
 ```bash
 root@me_dheeraj:$ bash 403-bypass.sh -u https://target.com/secret --exploit
-```
+````
 
-##### Prerequisites
-- apt install curl [Debian]
+## Help Menu
 
-## Support
-If you like `4-ZERO-3` and it help you in work, money/bounty, pentesting, recon or just brings you happy feelings, please show your support ! 
-:stop_sign:   **Please avoid opening GitHub issues for support requests or questions!**
-buy me a beer to keep me powered :)
+403-bypass [URL]
 
-<a href="https://www.buymeacoffee.com/medheeraj" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=medheeraj&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me A Beer"></a>
+-u, --url URL Target URL (https://domain.tld/path)
+
+Bypass Modes:
+--header Header Injection Bypass
+--protocol Protocol Smuggling
+--port Alternate Port Bypass
+--HTTPmethod HTTP Method Override
+--encode URL Encode Tricks
+--SQLi WAF Bypass via SQLi
+--exploit Run ALL modes
+
+Response Color Legend:
+🟩 2xx = Bypass Success  
+ 🟨 3xx = Redirection  
+ 🟥 4xx = Forbidden  
+ 🔵 5xx = Server Error
+
+---
+
+📸 Demo Tools & Screenshots
+
+<p align="center"> <img src="img/4-ZERO-3_priview.gif" width="45%"/> <img src="img/403-help" width="45%"/> </p>
+
+---
+
+👤 Author
+Azza Tegar Naufal Ataullah (@azza0x1a)
+
+🧑‍🎓 Student
+
+🐞 Bug Bounty Hunter | Security Researcher
+
+🔧 Tools Developer | Open Source Contributor
+
+---
+
+☕ Support & Collaboration
+If you like this tool, give it a ⭐
