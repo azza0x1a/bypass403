@@ -55,14 +55,6 @@ Response Color Legend:
 
 ---
 
-## 📸 Demo Tools & Screenshots
-
-<p align="center">
-  <img src="img/1.png" width="45%"/>
-</p>
-
----
-
 👤 Author
 Azza Tegar Naufal Ataullah (@azza0x1a)
 
